@@ -1,0 +1,32 @@
+{% if site.data.data.awards %}
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-star fa-stack-1x fa-inverse"></i>
+    </span>
+    Honors and Awards
+  </h2>
+
+{% for award in site.data.data.awards %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <p class="award-title">{{ award.title }}</p>
+        <div class="time">{{ award.time }}</div>
+      </div><!--//upper-row-->
+
+    </div><!--//meta-->
+
+    {% if award.details %}
+    <div class="details">
+      <p>{{ award.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->
+{% endif %}

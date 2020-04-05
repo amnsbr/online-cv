@@ -3,187 +3,163 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Amin Saberi
+    tagline: Neuroimaging Researcher
+    avatar: amin_1.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: amnsbr@gmail.com
+    phone: #+98 915 860 6649
+    website: #do not add http://
+    linkedin: 
+    github: amnsbr
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@amnsbr'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+    scholar_url: https://scholar.google.com/citations?user=kv7xdfYAAAAJ&hl=en
+
 
     languages:
       - idiom: English
+        # level: Advanced
+
+      - idiom: Farsi
         level: Native
 
-      - idiom: French
-        level: Professional
+    # interests:
+    #   - item: Climbing
+    #     link:
 
-      - idiom: Spanish
-        level: Professional
+    #   - item: Snowboarding
+    #     link:
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #   - item: Cooking
+    #     link:
 
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have studied medicine at Mashhad University of Medical Sciences. Afterwards, I 
+      joined Institute of Medical Science and Technology to do neuroimaging research, 
+      which is at the intersection of my interests in neuroscience, mathematics, and 
+      medical research. More specifically, I am using coordinate-based meta-analysis, in addition to 
+      functional and structural MRI methods to better understand the brain abnormalities in 
+      multiple sclerosis, and depression, as well as normal brain function in motor learning and pain.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: MD in Clinical Medicine
+      university: Mashhad University of Medical Sciences, Mashhad, Iran (GPA 17.86 / 20)
+      time: 2011 fall - 2019 winter
+      # details: |
+        # GPA 17.86 out of 20
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Neuroimaging Researcher
+      time: 2019 fall - now
+      company: Institute of Medical Sciences and Technologies, Shahid Beheshti University, Tehran, Iran
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I am using coordinate-based meta-analysis, 
+        rs-fMRI and structural MRI methods to better understand the brain abnormalities in 
+        multiple sclerosis, depression, dementia, and sleep disorders.
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Programming Projects
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Topic Finder
+        link: "https://github.com/amnsbr/topic_finder"
+        tagline: "Helps in finding topics that are eligible to be systematically reviewed, using Django web framework."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: ShiftPlanner
+        link: "http://shiftplanner.ir"
+        tagline: "Automatically generates night shift schedules for medical interns, using Django web framework"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Paced Auditory Serial Addition Test (PASAT)
+        link: "https://github.com/amnsbr/PASAT"
+        tagline: "Desktop implementation of a cognitive test which measures cognitive processing 
+                  speed and cognitive fatigability, using PyQt5 graphical user interface framework."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+awards:
+  - award:
+    time: 2011
+    title: Ranked 157th in Iranian University Entrance Exam (99.96% percentile, among ~400,000 students of natural sciences)
+  - award:
+    time: 2015
+    title: Member of National Elites Foundation
+  - award:
+    time: 2018
+    title: Ranked second at groups competition in the 10th National Medical Sciences Student Olympiad in Clinical Reasoning
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro: 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Platelet-To-Lymphocyte Ratio as a Predictor of No-Reflow after Primary Percutaneous Coronary Intervention
+                in Patients with ST Elevation Myocardial Infarction: A Systematic Review and Meta-Analysis"
+        link: "http://eprints.mums.ac.ir/11604/1/JCTM_Volume%207_Issue%202_Pages%20433-441.pdf"
+        authors: <b>Saberi A</b>, Gazanchian M, Sadeghi R, Eshraghi A*
+        conference: Journal of Cardio-Thoracic Medicine. 2019 Jun 1;7(2):433-41
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Predictive value of red blood cell distribution width for mortality in patients with acute pancreatitis: A systematic review and meta-analysis"
+        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6108247/"
+        authors: Ganji A, Esmaeilzadeh A, Ghanaei O, <b>Saberi A*</b>, Taherzadeh D, Sazgarnia S, et al .
+        conference: Med J Islam Repub Iran. 2017; 31 (1) :823-828
 
-      - title: A syntax directed compiler for Algol 60
+conference_abstracts:
+    title: Conference Abstracts
+    intro:
+    papers:
+      - title: "A coordinate based meta-analysis on the brain functional and structural changes in late life depression"
+        link: "https://www.civilica.com/Paper-HBMCMED06-HBMCMED06_026.html"
+        authors: <b>Saberi A</b>, Mohammadi E, Eickhoff CR, Zarei M, Eickhoff SB, Tahmasian M*
+        conference: Iranian Human Brain Mapping Congress, Shahid Beheshti University, Tehran, Iran. Oct 2019 
+                    <u>[Awarded Best Oral Presentation]</u>
+      
+      - title: "Neutrophil to lymphocyte ratio as a prognostic marker in glioblastoma multiforme: a systematic review and meta-analysis"
+        link: "http://shefayekhatam.ir/article-1-1205-en.html"
+        authors: <b>Saberi A*</b>, Ghodsi HR
+        conference: The 1st International Neuroinflammation Congress, Ghaem Hospital, Mashhad, Iran. April 2017
+      
+      - title: "Cerebral blood volume as a prognostic marker in glioblastoma patients treated with bevacizumab: a systematic review"
+        link: "http://dx.doi.org/10.13140/RG.2.1.2890.2006"
+        authors: <b>Saberi A*</b>, Gazanchian M, Ghodsi HR, Mofatteh A, Nazarpour S
+        conference: 1st International Razavi Cancer Congress, Razavi Hospital, Mashhad, Iran. May 2016
+      
+      - title: "The effect of stress on working memory in individuals with different personality traits."
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Acheshmeh Z, Alizade H, Ghodsi HR, <b>Saberi MA</b>, Shahrokhi Y
+        conference: 1st Razavi International Anxiety Congress, Razavi Hospital, Mashhad, Iran. Oct 2012
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Structural MRI with FSL, SPM and FreeSurfer
+        level: 70%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Functional MRI with FSL
+        level: 50%
 
-      - name: Angular
-        level: 98%
+      - name: Neuroimaging Coordinate-Based Meta-Analysis
+        level: 90%
 
-      - name: HTML5 & CSS
+      - name: Clinical Systematic Review and Meta-Analysis
+        level: 90%
+
+      - name: Python
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Statistical Analysis with SPSS and Python
+        level: 70%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Machine Learning with TensorFlow
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
