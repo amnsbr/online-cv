@@ -17,11 +17,11 @@ sidebar:
     website: #do not add http://
     linkedin: 
     github: amnsbr
-    gitlab:
-    bitbucket:
+    gitlab: 
+    bitbucket: 
     twitter: '@amnsbr'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+    codewars: 
     goodreads: # Number-Username, e.g. 123456-alandoe
     scholar_url: https://scholar.google.com/citations?user=kv7xdfYAAAAJ&hl=en
 
@@ -51,7 +51,9 @@ career-profile:
       which is at the intersection of my interests in neuroscience, mathematics, and 
       medical research. More specifically, I am using coordinate-based meta-analysis, in addition to 
       functional and structural MRI methods to better understand the brain abnormalities in 
-      multiple sclerosis, and depression, as well as normal brain function in motor learning and pain.
+      neuropsychiatric disorders such as depression and multiple sclerosis, as well as the function of normal 
+      human brain in e.g. nociception and motor learning. I am also interested in developing and testing new
+      methods of neuroimaging data analysis.
 education:
     - degree: MD in Clinical Medicine
       university: Mashhad University of Medical Sciences, Mashhad, Iran (GPA 17.86 / 20)
@@ -64,14 +66,16 @@ experiences:
       time: 2019 fall - now
       company: Institute of Medical Sciences and Technologies, Shahid Beheshti University, Tehran, Iran
       details: |
-        I am using coordinate-based meta-analysis, 
-        rs-fMRI and structural MRI methods to better understand the brain abnormalities in 
-        multiple sclerosis, depression, dementia, and sleep disorders.
+        I am using coordinate-based meta-analysis, in addition to
+        functional and structural MRI methods to better understand the brain abnormalities in
+        neuropsychiatric disorders such as depression and multiple sclerosis, as well as the function of normal
+        human brain in e.g. nociception and motor learning. I am also interested in developing and testing new
+        methods of neuroimaging data analysis.
 
 projects:
     title: Programming Projects
     intro: 
-    assignments:
+    assignments: 
       - title: Topic Finder
         link: "https://github.com/amnsbr/topic_finder"
         tagline: "Helps in finding topics that are eligible to be systematically reviewed, using Django web framework."
@@ -113,7 +117,7 @@ publications:
 
 conference_abstracts:
     title: Conference Abstracts
-    intro:
+    intro: 
     papers:
       - title: "A coordinate based meta-analysis on the brain functional and structural changes in late life depression"
         link: "https://www.civilica.com/Paper-HBMCMED06-HBMCMED06_026.html"
@@ -155,10 +159,16 @@ skills:
       - name: Python
         level: 95%
 
+      - name: R
+        level: 20%        
+
+      - name: Matlab
+        level: 20%        
+
       - name: Statistical Analysis with SPSS and Python
         level: 70%
 
-      - name: Machine Learning with TensorFlow
+      - name: Machine Learning with Scikit-learn and TensorFlow
         level: 30%
 
 footer: >
